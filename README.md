@@ -1,4 +1,5 @@
-unoficial fork of http-default-accounts-fingerprints.lua
+
+unoficial fork of nmap  http-default-accounts-fingerprints.lua
 
 fingerprints data for http-default-accounts.nse
 
