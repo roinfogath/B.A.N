@@ -673,23 +673,6 @@ table.insert(fingerprints, {
 })
 
 table.insert(fingerprints, {
-  name = "ASUS Wireless Router RT-G32",
-  category = "routers",
-  paths = {
-    {path = "."}
-  },
-  target_check = function (host, port, path, response)
-    return http_auth_realm(response) == "RT-G32"
-  end,
-  login_combos = {
-    {username = "admin", password = "admin"}
-  },
-  login_check = function (host, port, path, user, pass)
-    return try_http_basic_login(host, port, path, user, pass, false)
-  end
-})
-
-table.insert(fingerprints, {
   name = "ASUS Wireless RT-AC68U",
   category = "routers",
   paths = {
@@ -1234,7 +1217,7 @@ table.insert(fingerprints, {
 })
 
 table.insert(fingerprints, {
-  name = "Broadband Router Movistar",
+  name = "Broadband Router ",
   category = "routers",
   paths = {
     {path = "/"}
