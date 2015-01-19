@@ -1,3 +1,5 @@
+unoficial fork of http-default-accounts-fingerprints.lua
+
 fingerprints data for http-default-accounts.nse
 
 replace http-default-accounts-fingerprints.lua under /usr/share/nmap/nselib/data/  
@@ -6,19 +8,20 @@ run: nmap -p80,81,8080,8081,8082 -Pn --open --script=http-default-accounts.nse t
 
 for better security change your default router/camera password
  
-aded new signatures 
-Netgear CG3300CMR,
+aded new signatures
+ 
+Netgear: CG3300CMR,
         WGR614
         
-ZyXel   P-870HW,
+ZyXel:   P-870HW,
         P-660HW-D1
         
 Net-Lynx
 
-HUAWEI  SmartAX MT882,
+HUAWEI:  SmartAX MT882,
         EchoLife HG520b 
 
-ASUS    RT-G32(need more tests),
+ASUS:    RT-G32(need more tests),
         RT-N56U,
         RT-N10.B1,
         RT-N12E,
@@ -40,11 +43,11 @@ ASUS    RT-G32(need more tests),
         RT-N12LX,
         RT-AC66U,
         
-D-Link  DI-524,
+D-Link:  DI-524,
         DI-524UP,
         DI-804HV,      
         
-TP-LINK  WR740N,
+TP-LINK:  WR740N,
          WR1043ND,
          WR841N,
          WA5210G
